@@ -7,6 +7,7 @@
 </head>
 <body>
   <h1>Sign Up Form </h1>
+  <h2>Its Free. Anyone Can Join </h2>
   <form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
     <fieldset>
       <label> Information </label>
@@ -15,8 +16,10 @@
       
       <p> User Name : <input type="text" name="user_name"/> </p>
       <p> Password : <input type="text" name="psw"/></p>
+      <p> Confirm password: <input type="text" name="con_psw"/> </p>
       
-      <p> Email      : <input type="text" name="email_field"/></p>
+      <p> Email Add: <input type="text" name="email_field"/></p>
+      <p> Confirm Email Address: <input type="text" name="con_em_add"/></p>
     
       <p>
         <label> Gender </label>
@@ -35,8 +38,11 @@
       </p>
       
       <p>
-       
-      </p>
+          <input type="hidden" name="hidden_field" value="Patel Dhruv"> 
+        </p>
+      </fieldset>  
+      <p><input type="submit" value="Sign Up"></p>
+    </form>
       
     </fieldset>
 </body>  
