@@ -8,18 +8,25 @@
 <body>
   <h1>Sign Up Form </h1>
   <h2>Its Free. Anyone Can Join </h2>
-  <form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+  <form method="get" action="#null">
     <fieldset>
-      <label> Information </label>
-      <p> First Name : <input type="text" name="first_name_field"/> </p>
-      <p> Last Name  : <input type="text" name="last_name_field"/></p>
+      <h2> Information </h2>
+      <label for="f_name"> First Name :</label>
+        <input type="text" name="first_name_field" placeholder="First Name"/></p>
+      <label for="l_name"> Last Name :</label>
+        <input type="text" name="last_name_field" placeholder="Last Name"/></p>  
       
-      <p> User Name : <input type="text" name="user_name"/> </p>
-      <p> Password : <input type="password" name="psw"/></p>
-      <p> Confirm password: <input type="password" name="con_psw"/> </p>
-      
-      <p> Email Add: <input type="text" name="email_field"/></p>
-      <p> Confirm Email Address: <input type="text" name="con_em_add"/></p>
+      <label for="u_name"> User Name :</label>
+        <input type="text" name="u_name">
+      <label for="u_pass"> Password: </label>
+        <input type="password" name="psw"/>
+      <label for="con_pass"> Re-type password: 
+        <input type="password" name="con_psw"/>
+        
+      <label for="email">Email:</label>
+        <input id="email" name="email_data" placeholder="abc@example.com"/>
+      <label for="co_em_add"> Confirm Email Address: </label>
+        <input type="text" name="con_em_add"/>
     
       <p>
         <label> Gender </label>
@@ -30,32 +37,33 @@
       <p>
         <label> Date Of Birth (mm/dd/yyyy): </label>
           <select name="month_field">
-          <option value= "1-12" > 1</option>
-          <option value= "1-12" > 2</option>
-          <option value= "1-12" > 3</option>
-          <option value= "1-12" > 4</option>
-          <option value= "1-12" > 5</option>
-          <option value= "1-12" > 6</option>
-          <option value= "1-12" > 7</option>
-          <option value= "1-12" > 8</option>
-          <option value= "1-12" > 9</option>
-          <option value= "1-12" > 10</option>
-          <option value= "1-12" > 11</option>
-          <option value= "1-12" > 12</option>
+            <option value= "1-12" > 1</option>
+            <option value= "1-12" > 2</option>
+            <option value= "1-12" > 3</option>
+            <option value= "1-12" > 4</option>
+            <option value= "1-12" > 5</option>
+            <option value= "1-12" > 6</option>
+            <option value= "1-12" > 7</option>
+            <option value= "1-12" > 8</option>
+            <option value= "1-12" > 9</option>
+            <option value= "1-12" > 10</option>
+            <option value= "1-12" > 11</option>
+            <option value= "1-12" > 12</option>
           </select>
           
           <select name="day_field">
-          <option value= "1-31" > 1-31</option>
+            <option value= "1-31" > 1-31</option>
           </select>
+          
           <select>
-          <option value= "1950-2017" > 1950-2017 </option>
-        </select> 
+            <option value= "1950-2017" > 1950-2017 </option>
+          </select> 
         
       </p>
       
-      <p>
-          <input type="hidden" name="hidden_field" value="Patel Dhruv"> 
-        </p>
+      <!--<p>
+        <input type="hidden" name="hidden_field" value="Patel Dhruv"> 
+      </p> -->
       </fieldset>  
       <p><input type="submit" value="Sign Up"></p>
     </form>
