@@ -1,5 +1,6 @@
 body{
   background-position: center;
+  background-color: 	#F0E68C; /*Khaki*/
   font-family: 'Georgia', serif;
   font-size: 20px;
   text-align: center;
@@ -11,17 +12,20 @@ body{
 
 h1{
   font-size: 2.7em;
+  color: #87CEEB; /*SkyBlue*/
 }
 
 h2{
   font-size: 1.7em;
+  color: #2E8B57; /*SeaGreen*/
 }
 form{
   text-align: center;
+  background-color: #b3dbff;
 }
 
 input{
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
   margin: 8px 0;
   padding: 11px 19px;
@@ -32,4 +36,33 @@ label{
   display: block;
   text-align:center;
   font-size: 1.2em;
+}
+
+#First{
+  color: #0000FF; /*Blue*/
+}
+
+#Second{
+  color: #A52A2A/*Brown*/
+}
+
+#User{
+  color: #D2691E; /*Chocolate*/
+}
+
+#Password{
+  color: #8A2BE2; /*BlueViolet*/
+}
+
+#Email{
+  color: #DC143C; /*Crimson*/
+}
+
+#gen{
+  color:#9932CC; /*DarkOrchid*/
+  text-align: center;
+}
+
+#DOB{
+  color: #FF0000;/*Red*/
 }
