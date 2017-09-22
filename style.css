@@ -1,1 +1,35 @@
+body{
+  background-position: center;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  text-align: center;
+  width: auto;
+  text-decoration: none;
+  position: relative;
+  margin: o auto;
+}
 
+h1{
+  font-size: 2.7em;
+}
+
+h2{
+  font-size: 1.7em;
+}
+form{
+  text-align: center;
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px 0;
+  padding: 11px 19px;
+  border-radius: 5px;
+}
+
+label{
+  display: block;
+  text-align:center;
+  font-size: 1.2em;
+}
