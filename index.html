@@ -11,51 +11,55 @@
   <form method="get" action="#null">
     <fieldset>
       <h2> Information </h2>
-      <label for="f_name"> First Name :</label>
+      <div id="First">
+        <label for="f_name"> First Name :</label>
         <input type="text" id="f_name" placeholder="First Name"/>
-      <label for="l_name"> Last Name :</label>
-        <input type="text" id="l_name" placeholder="Last Name"/>  
+      </div>
       
-      <label for="u_name"> User Name :</label>
+      
+      <div id="Second">
+      <p>
+        <label for="l_name"> Last Name :</label>
+        <input type="text" id="l_name" placeholder="Last Name"/> 
+      </p>
+      
+      <div id="User">
+      <p>  
+        <label for="u_name"> User Name :</label>
         <input type="text" id="u_name">
-      <label for="psw"> Password: </label>
+      </p>
+      </div>
+      
+      <div id="Password">
+      <p>
+        <label for="psw"> Password: </label>
         <input type="password" id="psw"/>
-        
-      <label for="email">Email:</label>
+      </p>
+      </div>
+      
+      
+      <div id="Email">
+      <p>
+        <label for="email">Email:</label>
         <input id="email" name="email_data" placeholder="abc@example.com"/>
-
+      </p>
+      </div>
+      
+      <div id="gen">
       <p>
         <label> Gender </label>
         <label> Male <input type="radio" name="gender_field" value="Male"> </label>
         <label> Female <input type="radio" name="gender_field" value="Female"></label>
       </p>
+      </div>
       
+      <div id="DOB">
       <p>
-        <label> Date Of Birth (mm/dd/yyyy): </label>
-          <select name="month_field">
-            <option value= "1-12" > 1</option>
-            <option value= "1-12" > 2</option>
-            <option value= "1-12" > 3</option>
-            <option value= "1-12" > 4</option>
-            <option value= "1-12" > 5</option>
-            <option value= "1-12" > 6</option>
-            <option value= "1-12" > 7</option>
-            <option value= "1-12" > 8</option>
-            <option value= "1-12" > 9</option>
-            <option value= "1-12" > 10</option>
-            <option value= "1-12" > 11</option>
-            <option value= "1-12" > 12</option>
-          </select>
-          
-          <select name="day_field">
-            <option value= "1-31" > 1-31</option>
-          </select>
-          
-          <select>
-            <option value= "1950-2017" > 1950-2017 </option>
-          </select> 
-        
+      <label> Date Of Birth (mm/dd/yyyy): </label>
+      <input type="text" name="DOb"/>       
       </p>
+      </div>
+      
       
       <!--<p>
         <input type="hidden" name="hidden_field" value="Patel Dhruv"> 
