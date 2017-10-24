@@ -88,7 +88,16 @@ button{
   label{
     font-size: 1.2em; /* 19.2px */
   }
-input{
+  input{
   width: 40%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  form{
+    min-width: 960px;
+  }
+  input{
+    width: 50%;
   }
 }
