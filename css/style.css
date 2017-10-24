@@ -2,7 +2,7 @@ body{
   background-position: center;
   background-color: 	#F0E68C; /*Khaki*/
   font-family: 'Georgia', serif;
-  font-size: 20px;
+  font-size: 20px; /* 1.25em */
   text-align: center;
   width: auto;
   text-decoration: none;
@@ -11,12 +11,12 @@ body{
 }
 
 h1{
-  font-size: 2.7em;
+  font-size: 2.7em; /* 43.2px */
   color: #87CEEB; /*SkyBlue*/
 }
 
 h2{
-  font-size: 1.7em;
+  font-size: 1.7em;  /* 27.2px */
   color: #2E8B57; /*SeaGreen*/
 }
 form{
@@ -35,7 +35,7 @@ input{
 label{
   display: block;
   text-align:center;
-  font-size: 1.2em;
+  font-size: 1.2em; /* 19.2px */
 }
 
 #First{
@@ -60,8 +60,10 @@ label{
 
 #gen{
   color:#9932CC; /*DarkOrchid*/
-  text-align: center;
-}
+  text-align: left; 
+  display: inline-block;
+  }
+
 
 #DOB{
   color: #FF0000;/*Red*/
@@ -72,18 +74,19 @@ button{
   color:  black; 
   font-size: 15px;
   text-align:  center;
-  border-radius: 4px;
+  border-radius: 4px; /* 0.25em */
   border: 1px solid yellow;
   border-width: 1.2px 1.2px 1.5px;
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* 0.3125em */
 }
+
 
 @media only screen and (min-width: 480px){
   form{
     min-width: 480px;
   }
   label{
-    font-size: 1.2em;
+    font-size: 1.2em; /* 19.2px */
   }
 input{
   width: 40%;
